@@ -1,12 +1,25 @@
-<!DOCTYPE html>
-<html>
+<button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
+<button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">Our Code</button>
+<button class="tablink" onclick="openPage('About', this, 'orange')">About us</button>
+<button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
 
-<head>
-  <title>Page Title</title>
-</head>
 
-<body>
-The content of the document......
-</body>
+<div id="Home" class="tabcontent">
+  <h3>Home</h3>
+  <p>This Text is going to be where we put our introduction and what our project is</p>
+</div>
 
-</html>
+<div id="Our Code" class="tabcontent">
+  <h3>Our Code</h3>
+  <p>Our Code for the Colgate Challenge</p>
+</div>
+
+<div id="About us" class="tabcontent">
+    <h3>About us</h3>
+    <p>Who we are and what we do.</p>
+  </div>
+
+<div id="Contact" class="tabcontent">
+  <h3>Contact</h3>
+  <p>Contact us with any questions or concerns that you may have!</p>
+</div>
